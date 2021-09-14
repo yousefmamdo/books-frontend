@@ -18,7 +18,7 @@ class App extends React.Component {
     console.log('app', this.props);
     const { isAuthenticated } = this.props.auth0
     return (
-      <>
+    
         <Router>
           <IsLoadingAndError>
             <Header />
@@ -35,7 +35,7 @@ class App extends React.Component {
             <Footer />
           </IsLoadingAndError>
         </Router>
-      </>
+     
     );
   }
 }
